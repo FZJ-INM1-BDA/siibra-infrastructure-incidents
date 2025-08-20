@@ -1,0 +1,19 @@
+{
+    "$schema": "./schema/incidentlist.schema.json",
+    "incidents": [
+        {
+            "id": "_foo",
+            "title": "This is a test incident",
+            "updates": [
+                {
+                    "datetime": "2025-08-20T10:07:42.581173+02:00",
+                    "message": "Test incident"
+                }
+            ],
+            "tags": [
+                "externsvc/ebrains/k8s",
+                "baseinfra/vm"
+            ]
+        }
+    ]
+}

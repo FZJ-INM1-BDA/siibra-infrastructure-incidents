@@ -1,0 +1,87 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string",
+            "format": "uuid"
+        },
+        "title": {
+            "type": "string"
+        },
+        "updates": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/update"
+            }
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/tag"
+            }
+        }
+    },
+    "required": [
+        "id", "title", "updates", "tags"
+    ],
+    "additionalProperties": false,
+    "definitions": {
+        "update": {
+            "type": "object",
+            "properties": {
+                "datetime": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "memo": {
+                    "type": "string"
+                }
+            },
+            "required": ["datetime", "message"],
+            "additionalProperties": false
+        },
+        "tag": {
+            "oneOf": [
+                {
+                    "$ref": "#/definitions/tag-baseinfra"
+                },
+                {
+                    "$ref": "#/definitions/tag-externsvc"
+                }
+            ]
+        },
+        "tag-baseinfra": {
+            "oneOf": [
+                {
+                    "const": "baseinfra"
+                },
+                {
+                    "const": "baseinfra/vm"
+                },
+                {
+                    "const": "baseinfra/k8s"
+                },
+                {
+                    "const": "baseinfra/routing"
+                }
+            ]
+        },
+        "tag-externsvc": {
+            "oneOf": [
+                {
+                    "const": "externsvc"
+                },
+                {
+                    "const": "externsvc/ebrains"
+                },
+                {
+                    "const": "externsvc/ebrains/k8s"
+                }
+            ]
+        }
+    }
+}
