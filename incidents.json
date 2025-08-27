@@ -1,5 +1,16 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
     "incidents": [
+        {
+            "id": "28a0570f-49dd-4d5d-88d0-d30436dc7a8e",
+            "tags": ["baseinfra/vm"],
+            "title": "Data volume not reachable (1um.brainatlas.eu)",
+            "updates": [
+                {
+                    "datetime": "2025-08-27T14:21:33.645704+02:00",
+                    "message": "An issue has been discovered on NFS mount. As a result, some image volumes is currently not accessible."
+                }
+            ]
+        }
     ]
 }
