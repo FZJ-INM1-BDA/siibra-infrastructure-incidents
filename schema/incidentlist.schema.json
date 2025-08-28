@@ -7,6 +7,12 @@
             "items": {
                 "$ref": "./incident.schema.json"
             }
+        },
+        "past": {
+            "type": "array",
+            "items": {
+                "$ref": "./incident.schema.json"
+            }
         }
     }
 }
