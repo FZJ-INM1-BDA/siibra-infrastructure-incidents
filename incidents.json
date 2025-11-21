@@ -1,6 +1,18 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [],
+    "incidents": [
+        {
+            "id": "34845bea-c676-40af-ab61-5ae9a2ce33ba",
+            "tags": ["baseinfra/vm"],
+            "title": "Maintenance of infrastructure scheduled on 2025-12-03 and 2025-12-04.",
+            "updates": [
+                {
+                    "datetime": "2025-11-21T14:34:07.602871+01:00",
+                    "message": "The underlying infrastructure of siibra-toolsuite are scheduled to be undergoing maintenance on 2025-12-03 (whole day) and 2025-12-04 (whole day). Some of the services may not be working as intended."
+                }
+            ]
+        }
+    ],
     "past": [
         {
             "id": "28a0570f-49dd-4d5d-88d0-d30436dc7a8e",
