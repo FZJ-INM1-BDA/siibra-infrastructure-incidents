@@ -2,6 +2,17 @@
     "$schema": "./schema/incidentlist.schema.json",
     "incidents": [
         {
+            "id": "9a5ff276-df0c-4b81-a25a-3c2ad96c2329",
+            "tags": ["baseinfra/vm"],
+            "title": "Maintenance of data-proxy scheduled on 2025-11-28 and 2025-12-01.",
+            "updates": [
+                {
+                    "datetime": "2025-11-27T13:50:24.038939+01:00",
+                    "message": "An ebrains data-proxy maintenance is scheduled to start on 16:00CET 2025-11-28 (Friday). Some services, such as sane URL creation and retrieval may not work properly."
+                }
+            ]
+        },
+        {
             "id": "34845bea-c676-40af-ab61-5ae9a2ce33ba",
             "tags": ["baseinfra/vm"],
             "title": "Maintenance of infrastructure scheduled on 2025-12-03 and 2025-12-04.",
