@@ -2,6 +2,17 @@
     "$schema": "./schema/incidentlist.schema.json",
     "incidents": [
         {
+            "id": "f01cdcc2-bbf0-4c7d-8a6c-c6e1b656dd59",
+            "tags": ["baseinfra/routing", "baseinfra", "baseinfra/k8s", "baseinfra/vm"],
+            "title": "CINECA infrastruture experiencing network problems.",
+            "updates": [
+                {
+                    "datetime": "2025-12-02T18:39:57.571680+01:00",
+                    "message": "Issue reported."
+                }
+            ]
+        },
+        {
             "id": "34845bea-c676-40af-ab61-5ae9a2ce33ba",
             "tags": ["baseinfra/vm"],
             "title": "Maintenance of infrastructure scheduled on 2025-12-03 and 2025-12-04.",
