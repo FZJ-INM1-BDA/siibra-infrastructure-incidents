@@ -1,6 +1,8 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
     "incidents": [
+    ],
+    "past": [
         {
             "id": "f01cdcc2-bbf0-4c7d-8a6c-c6e1b656dd59",
             "tags": ["baseinfra/routing", "baseinfra", "baseinfra/k8s", "baseinfra/vm"],
@@ -9,6 +11,10 @@
                 {
                     "datetime": "2025-12-02T18:39:57.571680+01:00",
                     "message": "Issue reported."
+                },
+                {
+                    "datetime": "2025-12-04T18:03:22.061993+01:00",
+                    "message": "Issue resolved"
                 }
             ]
         },
@@ -20,11 +26,13 @@
                 {
                     "datetime": "2025-11-21T14:34:07.602871+01:00",
                     "message": "The underlying infrastructure of siibra-toolsuite are scheduled to be undergoing maintenance on 2025-12-03 (whole day) and 2025-12-04 (whole day). Some of the services may not be working as intended."
+                },
+                {
+                    "datetime": "2025-12-04T18:03:22.061993+01:00",
+                    "message": "Issue resolved"
                 }
             ]
-        }
-    ],
-    "past": [
+        },
         {
             "id": "9a5ff276-df0c-4b81-a25a-3c2ad96c2329",
             "tags": ["baseinfra/vm"],
