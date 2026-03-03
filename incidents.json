@@ -1,6 +1,17 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
     "incidents": [
+        {
+            "id": "40442068-69b0-4f24-93f8-604f3328267a",
+            "tags": ["externsvc/ebrains"],
+            "title": "Planned maintenance",
+            "updates": [
+                {
+                    "datetime": "2026-03-03T18:40:41.786028+01:00",
+                    "message": "The underlying infrastructure of siibra-toolsuite (data-proxy) are scheduled to be undergoing maintenance on 2026-03-04 (whole day). Some of the services may not be working as intended."
+                }
+            ]
+        }
     ],
     "past": [
         {
