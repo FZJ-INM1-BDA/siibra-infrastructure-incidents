@@ -1,22 +1,32 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [
+    "incidents": [],
+    "past": [
         {
             "id": "40442068-69b0-4f24-93f8-604f3328267a",
-            "tags": ["externsvc/ebrains"],
+            "tags": [
+                "externsvc/ebrains"
+            ],
             "title": "Planned maintenance",
             "updates": [
                 {
                     "datetime": "2026-03-03T18:40:41.786028+01:00",
                     "message": "The underlying infrastructure of siibra-toolsuite (data-proxy) are scheduled to be undergoing maintenance on 2026-03-04 (whole day). Some of the services may not be working as intended."
+                },
+                {
+                    "datetime": "2026-03-04T17:03:12.790526+01:00",
+                    "message": "The maintenance has been completed."
                 }
             ]
-        }
-    ],
-    "past": [
+        },
         {
             "id": "f01cdcc2-bbf0-4c7d-8a6c-c6e1b656dd59",
-            "tags": ["baseinfra/routing", "baseinfra", "baseinfra/k8s", "baseinfra/vm"],
+            "tags": [
+                "baseinfra/routing",
+                "baseinfra",
+                "baseinfra/k8s",
+                "baseinfra/vm"
+            ],
             "title": "CINECA infrastruture experiencing network problems.",
             "updates": [
                 {
@@ -31,7 +41,9 @@
         },
         {
             "id": "34845bea-c676-40af-ab61-5ae9a2ce33ba",
-            "tags": ["baseinfra/vm"],
+            "tags": [
+                "baseinfra/vm"
+            ],
             "title": "Maintenance of infrastructure scheduled on 2025-12-03 and 2025-12-04.",
             "updates": [
                 {
@@ -46,7 +58,9 @@
         },
         {
             "id": "9a5ff276-df0c-4b81-a25a-3c2ad96c2329",
-            "tags": ["baseinfra/vm"],
+            "tags": [
+                "baseinfra/vm"
+            ],
             "title": "Maintenance of data-proxy scheduled on 2025-11-28 and 2025-12-01.",
             "updates": [
                 {
@@ -61,7 +75,9 @@
         },
         {
             "id": "28a0570f-49dd-4d5d-88d0-d30436dc7a8e",
-            "tags": ["baseinfra/vm"],
+            "tags": [
+                "baseinfra/vm"
+            ],
             "title": "Data volume not reachable (1um.brainatlas.eu)",
             "updates": [
                 {
