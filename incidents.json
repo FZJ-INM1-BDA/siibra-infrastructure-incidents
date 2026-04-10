@@ -16,6 +16,10 @@
                 {
                     "datetime": "2026-04-10T13:33:00.632169+02:00",
                     "message": "We are investigating an issue affecting some of our services."
+                },
+                {
+                    "datetime": "2026-04-10T13:44:58.987025+02:00",
+                    "message": "A network issue within the underlying infracture is causing degredation of some services. Spatial feature queries is affected."
                 }
             ]
         }
