@@ -1,6 +1,25 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [],
+    "incidents": [
+        {
+            "id": "00a12761-b905-4208-b05e-53b6ced268c9",
+            "tags": [
+                "baseinfra",
+                "baseinfra/k8s",
+                "baseinfra/routing",
+                "externsvc",
+                "externsvc/ebrains",
+                "externsvc/ebrains/k8s"
+            ],
+            "title": "Network issue",
+            "updates": [
+                {
+                    "datetime": "2026-04-10T13:33:00.632169+02:00",
+                    "message": "We are investigating an issue affecting some of our services."
+                }
+            ]
+        }
+    ],
     "past": [
         {
             "id": "40442068-69b0-4f24-93f8-604f3328267a",
