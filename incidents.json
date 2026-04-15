@@ -1,6 +1,7 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [
+    "incidents": [],
+    "past": [
         {
             "id": "00a12761-b905-4208-b05e-53b6ced268c9",
             "tags": [
@@ -20,11 +21,14 @@
                 {
                     "datetime": "2026-04-10T13:44:58.987025+02:00",
                     "message": "A network issue within the underlying infracture is causing degredation of some services. Spatial feature queries is affected."
+                },
+                {
+                    "datetime": "2026-04-15T14:16:54.327010+02:00",
+                    "message": "The incident has been resolved.",
+                    "memo": "Orthodox Easter long weekend, unfortunately, so the issue lingered for a bit until Athena can address the issue."
                 }
             ]
-        }
-    ],
-    "past": [
+        },
         {
             "id": "40442068-69b0-4f24-93f8-604f3328267a",
             "tags": [
