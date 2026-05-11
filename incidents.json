@@ -1,6 +1,23 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [],
+    "incidents": [
+        {
+            "id": "32a7fb31-f5c4-4d82-b4ac-09f76f578a30",
+            "tags": [
+                "baseinfra",
+                "baseinfra/k8s",
+                "externsvc/ebrains",
+                "externsvc/ebrains/k8s"
+            ],
+            "title": "Infrasture issue",
+            "updates": [
+                {
+                    "datetime": "2026-05-11T13:19:57.364620+02:00",
+                    "message": "There is a known issue with infrastructure hosting siibra services. Some features may be unstable or unreliable."
+                }
+            ]
+        }
+    ],
     "past": [
         {
             "id": "00a12761-b905-4208-b05e-53b6ced268c9",
