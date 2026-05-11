@@ -1,6 +1,7 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [
+    "incidents": [],
+    "past": [
         {
             "id": "32a7fb31-f5c4-4d82-b4ac-09f76f578a30",
             "tags": [
@@ -14,11 +15,14 @@
                 {
                     "datetime": "2026-05-11T13:19:57.364620+02:00",
                     "message": "There is a known issue with infrastructure hosting siibra services. Some features may be unstable or unreliable."
+                },
+                {
+                    "datetime": "2026-05-11T16:10:34.855396+02:00",
+                    "message": "Issue resolved",
+                    "memo": "k8s pvc corrupted and needed to be rebuilt. sxplr pointed to docker compose instance on jsc cloud VM, now restored."
                 }
             ]
-        }
-    ],
-    "past": [
+        },
         {
             "id": "00a12761-b905-4208-b05e-53b6ced268c9",
             "tags": [
