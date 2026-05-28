@@ -1,6 +1,22 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [],
+    "incidents": [
+        {
+            "id": "d95f5c25-9206-47c4-a660-32e0b3090766",
+            "tags": [
+                "baseinfra",
+                "baseinfra/k8s"
+            ],
+            "title": "Infrasture issue",
+            "updates": [
+                {
+                    "datetime": "2026-05-28T17:50:07.552686+02:00",
+                    "message": "An infrastructure issue is affecting the performance of siibra-toolsuite. The services affected include: spatial search of features",
+                    "memo": "JSC maint caused HPA malfn. Basically functionallity operational thansk to Redis."
+                }
+            ]
+        }
+    ],
     "past": [
         {
             "id": "32a7fb31-f5c4-4d82-b4ac-09f76f578a30",
