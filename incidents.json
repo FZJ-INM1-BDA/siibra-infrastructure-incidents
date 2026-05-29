@@ -2,6 +2,23 @@
     "$schema": "./schema/incidentlist.schema.json",
     "incidents": [
         {
+            "id": "14d654ab-a7d8-4373-8c8b-7174a2ed5c78",
+            "tags": [
+                "externsvc",
+                "externsvc/ebrains"
+            ],
+            "title": "Planned maintenance on 2026-06-02",
+            "updates": [
+                {
+                    "datetime": "2026-05-28T17:50:07.552686+02:00",
+                    "message": "The underlying infrastructure will undergo maintenance on 2026-05-29 16:00 CEST. The maintenance is expected to last 1 hour. Some features, such as saneURL, and some volumes may not load properly",
+                    "memo": "data proxy for 1 hr maintenance"
+                }
+            ]
+        }
+    ],
+    "past": [
+        {
             "id": "d95f5c25-9206-47c4-a660-32e0b3090766",
             "tags": [
                 "baseinfra",
@@ -13,11 +30,14 @@
                     "datetime": "2026-05-28T17:50:07.552686+02:00",
                     "message": "An infrastructure issue is affecting the performance of siibra-toolsuite. The services affected include: spatial search of features",
                     "memo": "JSC maint caused HPA malfn. Basically functionallity operational thansk to Redis."
+                },
+                {
+                    "datetime": "2026-05-29T18:07:07.563958+02:00",
+                    "message": "The issue is now resolved",
+                    "memo": "some issue related to PVC"
                 }
             ]
-        }
-    ],
-    "past": [
+        },
         {
             "id": "32a7fb31-f5c4-4d82-b4ac-09f76f578a30",
             "tags": [
