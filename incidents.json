@@ -15,6 +15,18 @@
                     "memo": "data proxy for 1 hr maintenance"
                 }
             ]
+        },
+        {
+            "id": "2410da42-53a8-4c9d-a663-d92ebef8c5e0",
+            "tags": [],
+            "title": "Dataset serialization failure",
+            "updates": [
+                {
+                    "datetime": "2026-05-31T16:52:25.420722+02:00",
+                    "message": "Between 2026-05-29 and 2026-05-31, some datasets may not have displayed properly. This issue has now been fixed. You may still see some stale content. It should fix itself within a few hours. Alternatively, you can try to use an incognito browser to see the fresh content.",
+                    "memo": "siibra-snapshot commit 6446d2381e9eb8dbf0fbf6b1b85ca86803e12156 introduced the issue. 5fb8c727663183e737c7a10cf9ade605497f0831 fixed it."
+                }
+            ]
         }
     ],
     "past": [
