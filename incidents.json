@@ -2,34 +2,26 @@
     "$schema": "./schema/incidentlist.schema.json",
     "incidents": [
         {
-            "id": "d0f23327-ed08-4da0-aab5-b688c34b9c39",
-            "tags": [
-                "externsvc/ebrains"
-            ],
-            "title": "Platform downtime",
-            "updates": [
-                {
-                    "datetime": "2026-06-01T11:11:20.682762+02:00",
-                    "message": "Started at around 2026-06-01 01:00CEST, data-proxy is experiencing an unexpected issue. Some features, such as sane URL creation and resolution, some atlas volumes may not function properly.",
-                    "memo": "data proxy ssl cert expired. informed on #tech-support at 0831 CEST. hopefully it gets fixed soon."
-                }
-            ]
-        },
-        {
             "id": "14d654ab-a7d8-4373-8c8b-7174a2ed5c78",
             "tags": [
                 "externsvc",
                 "externsvc/ebrains"
             ],
-            "title": "Planned maintenance on 2026-06-02",
+            "title": "Planned maintenance on 2026-06-03 1600CEST",
             "updates": [
                 {
                     "datetime": "2026-05-28T17:50:07.552686+02:00",
                     "message": "The underlying infrastructure will undergo maintenance on 2026-06-02 17:00 CEST. The maintenance is expected to last 1 hour. Some features, such as saneURL, and some volumes may not load properly",
                     "memo": "data proxy for 1 hr maintenance"
+                },
+                {
+                    "datetime": "2026-06-03T13:38:19.892778+02:00",
+                    "message": "The maintenance has been delayed until 2026-06-03 1600CEST."
                 }
             ]
-        },
+        }
+    ],
+    "past": [
         {
             "id": "2410da42-53a8-4c9d-a663-d92ebef8c5e0",
             "tags": [],
@@ -41,9 +33,25 @@
                     "memo": "siibra-snapshot commit 6446d2381e9eb8dbf0fbf6b1b85ca86803e12156 introduced the issue. 5fb8c727663183e737c7a10cf9ade605497f0831 fixed it."
                 }
             ]
-        }
-    ],
-    "past": [
+        },
+        {
+            "id": "d0f23327-ed08-4da0-aab5-b688c34b9c39",
+            "tags": [
+                "externsvc/ebrains"
+            ],
+            "title": "Platform downtime",
+            "updates": [
+                {
+                    "datetime": "2026-06-01T11:11:20.682762+02:00",
+                    "message": "Started at around 2026-06-01 01:00CEST, data-proxy is experiencing an unexpected issue. Some features, such as sane URL creation and resolution, some atlas volumes may not function properly.",
+                    "memo": "data proxy ssl cert expired. informed on #tech-support at 0831 CEST. hopefully it gets fixed soon."
+                },
+                {
+                    "datetime": "2026-06-03T13:38:19.892778+02:00",
+                    "message": "The issue has now been resolved"
+                }
+            ]
+        },
         {
             "id": "d95f5c25-9206-47c4-a660-32e0b3090766",
             "tags": [
