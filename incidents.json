@@ -12,6 +12,10 @@
                     "datetime": "2026-06-08T08:58:56.644758+02:00",
                     "message": "Started at around 2026-06-08 01:00CEST, data-proxy is experiencing an unexpected issue. Some features, such as sane URL creation, may not function properly.",
                     "memo": "data proxy ssl cert expired. informed on #tech-support at 0850 CEST. hopefully it gets fixed soon."
+                }, 
+                {
+                    "datetime": "2026-06-08T09:32:30.663068+02:00",
+                    "message": "The issue has been resolved."
                 }
             ]
         }
