@@ -6,10 +6,10 @@ import re
 PATTERN = re.compile(r"^(?P<past_flag>[-+])(?P<days>\d+d)?(?P<hours>\d+h)?(?P<minutes>\d+m)?$")
 
 USAGE_TXT = """Usage:
-python generate_RFC3339_datetime.py # prints current date-time in RFC3339
-python generate_RFC3339_datetime.py -1d # prints date-time of a day ago in RFC3339
-python generate_RFC3339_datetime.py +1m1d # prints date-time of 1 month 1 day in future in RFC3339
-python generate_RFC3339_datetime.py -1m1d1m # prints date-time of 1 month 1 day 1 minute in the past in RFC3339
+python gen_datetime.py # prints current date-time in RFC3339
+python gen_datetime.py -1d # prints date-time of a day ago in RFC3339
+python gen_datetime.py +1m1d # prints date-time of 1 month 1 day in future in RFC3339
+python gen_datetime.py -1m1d1m # prints date-time of 1 month 1 day 1 minute in the past in RFC3339
 """
 
 def main(*args):

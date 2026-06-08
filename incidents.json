@@ -1,6 +1,21 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [],
+    "incidents": [
+        {
+            "id": "2485203d-012f-4a1c-96d1-7d961494c62c",
+            "tags": [
+                "externsvc/ebrains"
+            ],
+            "title": "Platform downtime",
+            "updates": [
+                {
+                    "datetime": "2026-06-08T08:58:56.644758+02:00",
+                    "message": "Started at around 2026-06-08 01:00CEST, data-proxy is experiencing an unexpected issue. Some features, such as sane URL creation, may not function properly.",
+                    "memo": "data proxy ssl cert expired. informed on #tech-support at 0850 CEST. hopefully it gets fixed soon."
+                }
+            ]
+        }
+    ],
     "past": [
         {
             "id": "14d654ab-a7d8-4373-8c8b-7174a2ed5c78",
