@@ -1,6 +1,7 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [
+    "incidents": [],
+    "past": [
         {
             "id": "14d654ab-a7d8-4373-8c8b-7174a2ed5c78",
             "tags": [
@@ -17,11 +18,13 @@
                 {
                     "datetime": "2026-06-03T13:38:19.892778+02:00",
                     "message": "The maintenance has been delayed until 2026-06-03 1600CEST."
+                },
+                {
+                    "datetime": "2026-06-08T08:36:57.474762+02:00",
+                    "message": "The issue has been resolved."
                 }
             ]
-        }
-    ],
-    "past": [
+        },
         {
             "id": "2410da42-53a8-4c9d-a663-d92ebef8c5e0",
             "tags": [],
