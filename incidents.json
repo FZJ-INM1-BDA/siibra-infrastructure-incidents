@@ -1,6 +1,21 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [],
+    "incidents": [
+        {
+            "id": "09cdb52a-e4cc-4dc8-91a1-3e77912fd366",
+            "tags": [
+                "externsvc",
+                "externsvc/ebrains"
+            ],
+            "title": "Platform unstable",
+            "updates": [
+                {
+                    "datetime": "2026-06-10T12:25:32.661087+02:00",
+                    "message": "ebrains DOI resolution service is currently unstable. As a result, 'detail' button may not work properly."
+                }
+            ]
+        }
+    ],
     "past": [
         {
             "id": "2485203d-012f-4a1c-96d1-7d961494c62c",
