@@ -7,11 +7,15 @@
                 "externsvc",
                 "externsvc/ebrains"
             ],
-            "title": "Platform unstable",
+            "title": "(RESOLVED) Platform unstable",
             "updates": [
                 {
                     "datetime": "2026-06-10T12:25:32.661087+02:00",
                     "message": "ebrains DOI resolution service is currently unstable. As a result, 'detail' button may not work properly."
+                },
+                {
+                    "datetime": "2026-06-10T12:38:48.574826+02:00",
+                    "message": "The issue has been resolved."
                 }
             ]
         }
