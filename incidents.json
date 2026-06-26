@@ -6,11 +6,16 @@
             "tags": [
                 "baseinfra"
             ],
-            "title": "Server migration",
+            "title": "[completed] Server migration",
             "updates": [
                 {
                     "datetime": "2026-06-26T09:35:58.745775+02:00",
                     "message": "We will be carrying out a server migration on 2026-06-26 at 10:00 CEST. Some services may be unstable."
+                },
+                {
+                    
+                    "datetime": "2026-06-26T13:07:01.723392+02:00",
+                    "message": "The migration has completed. Please let us know if you you continue to experience issues."
                 }
             ]
         }
