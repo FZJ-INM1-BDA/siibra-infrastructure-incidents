@@ -1,6 +1,20 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [],
+    "incidents": [
+        {
+            "id": "c9a468e0-7171-4d77-aae1-07e379b93ac4",
+            "tags": [
+                "baseinfra"
+            ],
+            "title": "Server migration",
+            "updates": [
+                {
+                    "datetime": "2026-06-26T09:35:58.745775+02:00",
+                    "message": "We will be carrying out a server migration on 2026-06-26 at 10:00 CEST. Some services may be unstable."
+                }
+            ]
+        }
+    ],
     "past": [
         {
             "id": "09cdb52a-e4cc-4dc8-91a1-3e77912fd366",
