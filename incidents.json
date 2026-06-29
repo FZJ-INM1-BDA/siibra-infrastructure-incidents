@@ -1,6 +1,8 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
     "incidents": [
+    ],
+    "past": [
         {
             "id": "c9a468e0-7171-4d77-aae1-07e379b93ac4",
             "tags": [
@@ -18,9 +20,7 @@
                     "message": "The migration has completed. Please let us know if you you continue to experience issues."
                 }
             ]
-        }
-    ],
-    "past": [
+        },
         {
             "id": "09cdb52a-e4cc-4dc8-91a1-3e77912fd366",
             "tags": [
