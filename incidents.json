@@ -7,12 +7,16 @@
                 "baseinfra",
                 "baseinfra/k8s"
             ],
-            "title": "Infrasture unstable",
+            "title": "Service degregation",
             "updates": [
                 {
                     "datetime": "2026-08-13T12:42:04.435896+02:00",
-                    "message": "There has been an issue with the underlying infrastructure. We have initiated some backups, but some services may not be stable.",
+                    "message": "There has been an issue with the underlying infrastructure. We have start up backup systems, but some services may not be stable.",
                     "memo": "longhorn storage IO Error. reported to athena, confirmed that others are experiencing it too. Asking them to let me know when the issue is fixed. In the mean time, VM with SAPI is created on omero-deploy. Found a separate, unrelated bug in siibra-python by chance"
+                },
+                {
+                    "datetime": "2026-08-13T16:19:25.244468+02:00",
+                    "message": "The aforementioned issue has now been resolved. Please contact us if issue persists."
                 }
             ]
         }
