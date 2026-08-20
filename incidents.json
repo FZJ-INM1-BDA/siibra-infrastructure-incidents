@@ -13,6 +13,11 @@
                     "datetime": "2026-08-20T08:41:54.638391+02:00",
                     "message": "Some service degredation has been observed. We are investigating the issue.",
                     "memo": "kubectl shows most pods restrated 6hrs ago, perhaps related?"
+                },
+                {
+                    "datetime": "2026-08-20T16:42:52.410924+02:00",
+                    "message": "The underlying infrastructure is experiencing network issues. We are working to restore the services as quickly as possible.",
+                    "memo": "jsccloud appears to have network switch issues."
                 }
             ]
         }
