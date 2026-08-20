@@ -1,6 +1,21 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
     "incidents": [
+        {
+            "id": "a1f7e717-39a9-410c-aa36-dab8c2fa26c9",
+            "tags": [
+                "baseinfra",
+                "baseinfra/k8s"
+            ],
+            "title": "Service degraded",
+            "updates": [
+                {
+                    "datetime": "2026-08-20T08:41:54.638391+02:00",
+                    "message": "Some service degredation has been observed. We are investigating the issue.",
+                    "memo": "kubectl shows most pods restrated 6hrs ago, perhaps related?"
+                }
+            ]
+        }
     ],
     "past": [
         {
