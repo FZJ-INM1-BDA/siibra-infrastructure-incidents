@@ -18,6 +18,10 @@
                     "datetime": "2026-08-20T16:42:52.410924+02:00",
                     "message": "The underlying infrastructure is experiencing network issues. We are working to restore the services as quickly as possible.",
                     "memo": "jsccloud appears to have network switch issues."
+                },
+                {
+                    "datetime": "2026-08-21T18:54:11.737556+02:00",
+                    "message": "The issue has been resolved. Please contact us if you find any additional issues."
                 }
             ]
         }
