@@ -2,6 +2,21 @@
     "$schema": "./schema/incidentlist.schema.json",
     "incidents": [
         {
+            "id": "9d1dca28-82f2-498d-97f7-c3ddb40c8000",
+            "tags": [
+                "baseinfra"
+            ],
+            "title": "Service degraded",
+            "updates": [
+                {
+                    "datetime": "2026-09-01T06:55:37.024778+02:00",
+                    "message": "Some services degredation has been observed. Some services, such as saneURL, some volumes are not functioning properly."
+                }
+            ]
+        }
+    ],
+    "past": [
+        {
             "id": "99c09bdc-74aa-4dcb-85d3-92ef72eca830",
             "tags": [
                 "baseinfra"
@@ -17,9 +32,7 @@
                     "message": "The issue has been addressed. Please contact us if issues persist."
                 }
             ]
-        }
-    ],
-    "past": [
+        },
         {
             "id": "a1f7e717-39a9-410c-aa36-dab8c2fa26c9",
             "tags": [
