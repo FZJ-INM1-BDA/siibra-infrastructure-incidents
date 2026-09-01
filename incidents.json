@@ -11,6 +11,10 @@
                 {
                     "datetime": "2026-09-01T06:55:37.024778+02:00",
                     "message": "Some services degredation has been observed. Some services, such as saneURL, some volumes are not functioning properly."
+                },
+                {
+                    "datetime": "2026-09-01T13:09:18.089137+02:00",
+                    "message": "The issue has been addressed. Please contact us if issues persist."
                 }
             ]
         }
