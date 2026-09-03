@@ -1,6 +1,7 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [
+    "incidents": [],
+    "past": [
         {
             "id": "9d1dca28-82f2-498d-97f7-c3ddb40c8000",
             "tags": [
@@ -17,9 +18,7 @@
                     "message": "The issue has been addressed. Please contact us if issues persist."
                 }
             ]
-        }
-    ],
-    "past": [
+        },
         {
             "id": "99c09bdc-74aa-4dcb-85d3-92ef72eca830",
             "tags": [
