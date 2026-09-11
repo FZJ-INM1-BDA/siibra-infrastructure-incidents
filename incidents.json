@@ -7,11 +7,15 @@
                 "externsvc",
                 "externsvc/ebrains"
             ],
-            "title": "Service degraded",
+            "title": "(Resolved) Service degraded",
             "updates": [
                 {
                     "datetime": "2026-09-11T15:30:11.931930+02:00",
                     "message": "Some DOI are not resolving. We are investigating the issue."
+                },
+                {
+                    "datetime": "2026-09-11T16:12:20.082583+02:00",
+                    "message": "The issue should be fixed. Please contact us if you continue to encounter issue"
                 }
             ]
         }
