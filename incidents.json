@@ -1,6 +1,21 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [],
+    "incidents": [
+        {
+            "id": "d91b1578-72d1-4a58-b170-8ac295fca06a",
+            "tags": [
+                "externsvc",
+                "externsvc/ebrains"
+            ],
+            "title": "Service degraded",
+            "updates": [
+                {
+                    "datetime": "2026-09-11T15:30:11.931930+02:00",
+                    "message": "Some DOI are not resolving. We are investigating the issue."
+                }
+            ]
+        }
+    ],
     "past": [
         {
             "id": "9d1dca28-82f2-498d-97f7-c3ddb40c8000",
@@ -91,7 +106,6 @@
                     "message": "We will be carrying out a server migration on 2026-06-26 at 10:00 CEST. Some services may be unstable."
                 },
                 {
-                    
                     "datetime": "2026-06-26T13:07:01.723392+02:00",
                     "message": "The migration has completed. Please let us know if you you continue to experience issues."
                 }
@@ -126,7 +140,7 @@
                     "datetime": "2026-06-08T08:58:56.644758+02:00",
                     "message": "Started at around 2026-06-08 01:00CEST, data-proxy is experiencing an unexpected issue. Some features, such as sane URL creation, may not function properly.",
                     "memo": "data proxy ssl cert expired. informed on #tech-support at 0850 CEST. hopefully it gets fixed soon."
-                }, 
+                },
                 {
                     "datetime": "2026-06-08T09:32:30.663068+02:00",
                     "message": "The issue has been resolved."
