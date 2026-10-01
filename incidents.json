@@ -1,6 +1,21 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [],
+    "incidents": [
+        {
+            "id": "ab3c4582-2198-429a-845f-963bf3241981",
+            "tags": [
+                "baseinfra/dataproxy",
+                "externsvc/objstore"
+            ],
+            "title": "Service degraded",
+            "updates": [
+                {
+                    "datetime": "2026-10-01T08:31:49.109714+02:00",
+                    "message": "We noticed the underlying infrastructure is experiencing issues. Some services, such as saneURL retrieval/creation, some atlases may not function properly."
+                }
+            ]
+        }
+    ],
     "past": [
         {
             "id": "d91b1578-72d1-4a58-b170-8ac295fca06a",

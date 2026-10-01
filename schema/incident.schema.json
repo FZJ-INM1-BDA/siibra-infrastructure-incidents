@@ -63,6 +63,9 @@
                     "const": "baseinfra/vm"
                 },
                 {
+                    "const": "baseinfra/dataproxy"
+                },
+                {
                     "const": "baseinfra/k8s"
                 },
                 {
@@ -74,6 +77,9 @@
             "oneOf": [
                 {
                     "const": "externsvc"
+                },
+                {
+                    "const": "externsvc/objstore"
                 },
                 {
                     "const": "externsvc/ebrains"
