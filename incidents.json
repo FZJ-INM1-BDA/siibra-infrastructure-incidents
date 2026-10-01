@@ -12,6 +12,10 @@
                 {
                     "datetime": "2026-10-01T08:31:49.109714+02:00",
                     "message": "We noticed the underlying infrastructure is experiencing issues. Some services, such as saneURL retrieval/creation, some atlases may not function properly."
+                },
+                {
+                    "datetime": "2026-10-01T09:32:40.721792+02:00",
+                    "message": "The incident has been fixed. Please let us know if continue to encounter issues."
                 }
             ]
         }
