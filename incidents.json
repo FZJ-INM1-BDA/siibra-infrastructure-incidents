@@ -1,6 +1,21 @@
 {
     "$schema": "./schema/incidentlist.schema.json",
-    "incidents": [],
+    "incidents": [
+        {
+            "id": "29818f3a-ef81-4adc-a9b2-212916d04c0e",
+            "tags": [
+                "baseinfra",
+                "externsvc/ebrains"
+            ],
+            "title": "Service degraded",
+            "updates": [
+                {
+                    "datetime": "2026-10-09T09:19:53.999095+02:00",
+                    "message": "We noticed the underlying infrastructure is experiencing issues. Some services, such as saneURL retrieval/creation, some atlases may not function properly"
+                }
+            ]
+        }
+    ],
     "past": [
         {
             "id": "ab3c4582-2198-429a-845f-963bf3241981",
